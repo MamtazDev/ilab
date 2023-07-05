@@ -1,0 +1,40 @@
+.sidebar {
+  background-color: #111B36;
+  height: 100vh;
+  padding: 30px 40px 70px 40px;
+}
+
+.sidebar .logo {
+  margin-bottom: 33px !important;
+}
+
+.sidebar p {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+  margin-bottom: 77px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-left: 0;
+}
+
+.sidebar a {
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'General Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+
+}
+
+.sidebar a.activeRoute {
+  color: var(--foul, #00D1FF) !important;
+}
+
+.sidebar a img {
+  margin-right: 15px;
+}
