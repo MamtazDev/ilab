@@ -3,7 +3,7 @@ import camera from "../../assets/images/Cryptocurrency.png";
 import camera1 from "../../assets/images/Cryptocurrency (1).png";
 import camera2 from "../../assets/images/Cryptocurrency (2).png";
 
-const CompletedOrder = () => {
+const DelayedOrder = () => {
   const completedOrder = [
     {
       pic: camera,
@@ -18,10 +18,9 @@ const CompletedOrder = () => {
       time: "8d 2hr",
     },
   ];
-
   return (
     <div className="bg-white order_box">
-      <h6 className="box_border_black text-black">Completed orders(12)</h6>
+      <h6 className="box_border_black text-black">Delayed order(03)</h6>
       {completedOrder.map((order, index) => (
         <div key={index}>
           <div
@@ -39,7 +38,7 @@ const CompletedOrder = () => {
             </div>
 
             <p className="time">{order.time}</p>
-            <p className="status">Completed</p>
+            <p className="delay_status">Delayed</p>
           </div>
 
           {completedOrder.length - 1 !== index && (
@@ -51,4 +50,4 @@ const CompletedOrder = () => {
   );
 };
 
-export default CompletedOrder;
+export default DelayedOrder;

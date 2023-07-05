@@ -42,7 +42,7 @@ input:focus-visible {
 }
 
 .title {
-    max-width: 736px;
+    width: 100%;
     border-radius: 15px;
     background: #FFF;
     margin-bottom: 30px;
@@ -72,6 +72,7 @@ input:focus-visible {
 .box_border_black {
     border-bottom: 1px solid rgba(51, 51, 51, 0.40);
     width: max-content;
+    margin-bottom: 15px;
 }
 
 
@@ -112,6 +113,22 @@ input:focus-visible {
 
 .order_box .status {
     color: #32735F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.order_box .delay_status {
+    color: #FD1A36;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.order_box .delivered_status {
+    color: #00D1FF;
     font-family: 'Outfit', sans-serif;
     font-size: 12px;
     font-weight: 400;

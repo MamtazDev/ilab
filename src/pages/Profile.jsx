@@ -4,6 +4,8 @@ import search from "../assets/icon/search.png";
 import Title from "../components/utils/Title";
 import IncomingOrder from "../components/Profile/IncomingOrder";
 import CompletedOrder from "../components/Profile/CompletedOrder";
+import DelayedOrder from "../components/Profile/DelayedOrder";
+import DeliveredOrder from "../components/Profile/DeliveredOrder";
 
 const Profile = () => {
   return (
@@ -21,12 +23,23 @@ const Profile = () => {
             </div>
             <Title>Cart</Title>
 
-            <div className="row ">
+            <div style={{ marginBottom: "30px" }} className="row ">
               <div className="col-5">
                 <IncomingOrder />
               </div>
               <div className="col-7">
-                <CompletedOrder/>
+                <CompletedOrder />
+              </div>
+            </div>
+
+            <Title>Sent Orders</Title>
+
+            <div className="row ">
+              <div className="col-7">
+                <DelayedOrder />
+              </div>
+              <div className="col-5">
+                <DeliveredOrder />
               </div>
             </div>
           </div>
