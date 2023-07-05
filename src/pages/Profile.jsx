@@ -12,7 +12,7 @@ const Profile = () => {
   return (
     <div>
       <div className="row g-0">
-        <div className="col-8 ">
+        <div className="col-12 col-lg-8 ">
           <div className="cart">
             <div className="search d-flex gap-2 align-items-center">
               <img src={search} alt="" />
@@ -25,10 +25,10 @@ const Profile = () => {
             <Title>Cart</Title>
 
             <div style={{ marginBottom: "30px" }} className="row ">
-              <div className="col-5">
+              <div className="col-12 col-lg-5">
                 <IncomingOrder />
               </div>
-              <div className="col-7">
+              <div className="col-12 col-lg-7">
                 <CompletedOrder />
               </div>
             </div>
@@ -36,17 +36,17 @@ const Profile = () => {
             <Title>Sent Orders</Title>
 
             <div className="row ">
-              <div className="col-7">
+              <div className="col-12 col-lg-7">
                 <DelayedOrder />
               </div>
-              <div className="col-5">
+              <div className="col-12 col-lg-5">
                 <DeliveredOrder />
               </div>
             </div>
           </div>
         </div>
-        <div className="col-4">
-            <ProfileDetails/>
+        <div className="col-12 col-lg-4 ">
+          <ProfileDetails />
         </div>
       </div>
     </div>
