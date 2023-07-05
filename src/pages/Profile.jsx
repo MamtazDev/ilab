@@ -6,6 +6,7 @@ import IncomingOrder from "../components/Profile/IncomingOrder";
 import CompletedOrder from "../components/Profile/CompletedOrder";
 import DelayedOrder from "../components/Profile/DelayedOrder";
 import DeliveredOrder from "../components/Profile/DeliveredOrder";
+import ProfileDetails from "../components/Profile/ProfileDetails";
 
 const Profile = () => {
   return (
@@ -44,7 +45,9 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="col-4"></div>
+        <div className="col-4">
+            <ProfileDetails/>
+        </div>
       </div>
     </div>
   );

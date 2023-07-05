@@ -3,3 +3,74 @@
     padding: 27px 27px 27px 22px;
 }
 
+.profileDetails {
+    padding: 28px 40px;
+}
+
+.profileDetails .welcome {
+    color: var(--black-01, #191D31);
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5px;
+}
+
+.profileDetails .name_blur {
+    color: var(--grey-01, #A6A9B9);
+    font-size: 14px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.profileDetails .name {
+    color: #071412;
+    font-size: 20px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    line-height: 180%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.profileDetails .social_icon {
+    margin-bottom: 35px;
+}
+
+.profileDetails .service {
+    border-radius: 15px;
+    background: #111B36;
+    padding: 14px 17px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 9px;
+}
+
+.profileDetails .service h6 {
+    font-size: 14px;
+    color: #00D1FF;
+    font-family: 'General Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.profileDetails .service p {
+    font-size: 16px;
+    color: white;
+    font-family: 'General Sans', sans-serif;
+}
+
+.profileDetails .inquiry {
+    border-radius: 15px;
+    background: #24343F;
+    padding: 18px 35px;
+}
+
+.profileDetails .inquiry p {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    line-height: 180%;
+}
