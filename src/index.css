@@ -1,13 +1,119 @@
-
 @import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul li{
+
+ul li {
     list-style: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+
+.search {
+    max-width: 429px;
+    height: 52px;
+    border-radius: 15px;
+    background: #FFF;
+    padding: 0 14px;
+    margin-bottom: 26px;
+}
+
+.search input::placeholder {
+    color: var(--grey-01, #A6A9B9);
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.title {
+    max-width: 736px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-bottom: 30px;
+    padding: 10px 28px;
+}
+
+.title p {
+    color: #071412;
+    font-size: 20px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.order_box {
+    background: #111B36;
+    padding: 20px 31px 15px 20px;
+    border-radius: 10px;
+}
+
+.box_border {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+    width: max-content;
+    margin-bottom: 15px;
+}
+
+.box_border_black {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.40);
+    width: max-content;
+}
+
+
+.order_box h6 {
+    color: #00D1FF;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 180%;
+    padding-bottom: 11px;
+    margin-bottom: 15px;
+}
+
+.order_box .name {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+
+.order_box .price {
+    color: #32735F;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.order_box .time {
+    color: var(--grey-01, #A6A9B9);
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.order_box .status {
+    color: #32735F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 180%;
 }
