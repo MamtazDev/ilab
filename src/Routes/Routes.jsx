@@ -5,6 +5,8 @@ import LensOrdering from "../pages/LensOrdering";
 import Profile from "../pages/Profile";
 import Status from "../pages/Status";
 import Settings from "../pages/Settings";
+import MyOrder from "../pages/MyOrder";
+import Receipt from "../pages/Receipt";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ export const router = createBrowserRouter([
       {
         path: "/settings",
         element: <Settings></Settings>,
+      },
+      {
+        path: "/my-order",
+        element: <MyOrder></MyOrder>,
+      },
+      {
+        path: "/receipt",
+        element: <Receipt></Receipt>,
       },
     ],
   },

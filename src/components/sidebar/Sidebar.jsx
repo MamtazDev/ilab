@@ -46,7 +46,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/nm"
+              to="/my-order"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={orders} alt="" />
@@ -56,7 +56,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/hjhj"
+              to="/receipt"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={receipt} alt="" />

@@ -11,6 +11,7 @@ import ProfileDetails from "../components/Profile/ProfileDetails";
 const Profile = () => {
   return (
     <div>
+   
       <div className="row g-0">
         <div className="col-12 col-lg-8 ">
           <div className="cart">
