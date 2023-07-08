@@ -36,7 +36,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/gggg"
+              to="/lens-ordering"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={lense} alt="" />
@@ -66,7 +66,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/bnb"
+              to="/status"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={status} alt="" />
@@ -76,7 +76,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/hjh"
+              to="/settings"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={settings} alt="" />

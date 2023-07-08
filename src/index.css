@@ -23,6 +23,10 @@ input:focus-visible {
     outline: none;
 }
 
+.outlet {
+    height: 100vh;
+    overflow-y: scroll;
+}
 
 .search {
     max-width: 429px;

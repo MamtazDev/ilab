@@ -8,7 +8,7 @@ const Main = () => {
       <div style={{width:"292px"}}>
         <Sidebar />
       </div>
-      <div className="w-100">
+      <div className="outlet w-100">
         <Outlet />
       </div>
     </div>

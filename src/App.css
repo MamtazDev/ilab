@@ -1,0 +1,431 @@
+.lens_ordering {
+    background: #F5F5F5;
+    padding: 27px 22px !important ;
+}
+.status{
+    background: #F5F5F5;
+    padding: 27px 22px !important 
+}
+
+.lens_order_box {
+    border: none;
+    border-radius: 15px;
+    background: #FFF;
+    padding: 45px 26px;
+}
+
+.lens_ordering h2 {
+    font-family: 'General Sans', sans-serif;
+    color: #071412;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-bottom: 14px;
+}
+
+.lens_ordering label {
+    color: #5E5E5E;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.lens_ordering input,
+.lens_ordering select {
+    width: 277px;
+}
+
+.form-control:focus {
+    border-color: none !important;
+}
+
+.lens_ordering input::placeholder,
+.lens_ordering select {
+    color: #000;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.form-control {
+    padding: 6px 22px;
+}
+
+.lens_ordering button {
+    border-radius: 5px;
+    background: #111B36;
+    padding: 12px 65px;
+    color: #FFF;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    border: none;
+    transition: 0.4s ease-in;
+    white-space: nowrap;
+}
+
+.lens_ordering button:hover {
+    background: #192a59;
+}
+
+
+.four_input input {
+    width: 125px;
+}
+
+.three_input input {
+    width: 71px;
+}
+
+/* Ordering Page End */
+
+/* Payment Page Start */
+.payment {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 32px 54px;
+    max-width: 704px;
+}
+
+.payment h2 {
+    color: #071412;
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-bottom: 11px;
+}
+
+.payment label {
+    color: #000;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.form-check-input:checked {
+    background-color: #111B36;
+    border-color: #111B36;
+}
+
+.form-check-input:focus {
+    border-color: none !important;
+    box-shadow: none;
+}
+
+.payment_btn {
+    white-space: none;
+    border: none;
+    padding: 12px 65px;
+    border-radius: 5px;
+    background: #111B36;
+    color: #FFF;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+/* Payment Page End */
+
+/* Settings Page Start */
+
+.profile_box {
+    border-radius: 15px;
+    background: #FFF;
+}
+
+.img__box {
+    text-align: center;
+    position: relative;
+}
+
+.img__box img:first-child {
+    border-radius: 50%;
+    margin-bottom: 14px;
+}
+
+.img__box label>img {
+    position: absolute;
+    background: #E2F4F8;
+    padding: 13px;
+    right: 31%;
+    bottom: 1%;
+}
+
+@media screen and (max-width: 1660px) {
+    .img__box label>img {
+        right: 26%;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .img__box label>img {
+        right: 21%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img__box label>img {
+        right: 11%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .img__box label>img {
+        right: -2%;
+        bottom: 12%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        display: none;
+    }
+
+    .img__box label>img {
+        right: 40%;
+        bottom: 1%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sidebar {
+        display: none;
+    }
+
+    .img__box label>img {
+        right: 38%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    .img__box label>img {
+        right: 30%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .sidebar {
+        display: none;
+    }
+
+    .img__box label>img {
+        right: 22%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .sidebar {
+        display: none;
+    }
+
+    .img__box label>img {
+        right: 13%;
+    }
+}
+
+
+.profile_box h3 {
+    color: #222;
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.img__box>input {
+    display: none;
+}
+
+.address {
+    padding: 52px 32px;
+}
+
+.address p {
+    color: #292929;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.change_password p {
+    padding: 15px;
+}
+
+@media screen and (max-width: 491px) {
+    .sidebar {
+        display: none;
+    }
+
+    .change_password p {
+        display: none;
+    }
+}
+
+.change_password span {
+    color: #00D1FF;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-left: 16px;
+}
+
+.change_password {
+    position: relative;
+}
+
+.change_password img {
+    position: absolute;
+    left: 24%
+}
+
+@media screen and (max-width: 375px) {
+    .sidebar {
+        display: none;
+    }
+
+    .change_password img {
+        left: 80%
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .sidebar {
+        display: none;
+    }
+
+    .change_password img {
+        left: 105%
+    }
+
+}
+
+.card_link {
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        display: none;
+    }
+
+    .card_link {
+        margin-bottom: 0px;
+    }
+
+}
+
+/* Setting Page End */
+
+
+/* Status Page Start */
+
+.order_number_box {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    padding: 16px 34px;
+    margin-bottom: 19px;
+}
+
+.order_number_box h6 {
+    color: #000;
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.order_number_box span {
+    font-weight: 400;
+}
+
+.order_number_box p {
+    color: #353535;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.order_number_box h3 {
+    color: #32735F;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+@media screen and (max-width: 550px) {
+    .order_number_box {
+        flex-direction: column;
+        align-items: start !important;
+    }
+}
+
+/* Status Page End */
+
+/* My Order Page Start */
+
+.my_order_box {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 30px;
+    margin-left: 22px;
+    margin-right: 45px;
+}
+
+.table {
+    font-family: 'General Sans', sans-serif;
+    text-align: center;
+}
+
+.table th {
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    color: #00D1FF;
+}
+
+.table td {
+    color: #353535;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+/* My Order Page End */
