@@ -23,9 +23,20 @@ input:focus-visible {
     outline: none;
 }
 
+
+
+
+
+
 .outlet {
     height: 100vh;
     overflow-y: scroll;
+}
+
+.mobileNavbar {
+    position: absolute;
+    top: 0;
+    z-index: 9999;
 }
 
 .search {

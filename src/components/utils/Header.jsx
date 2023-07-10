@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       style={{ marginBottom: "25px" }}
-      className="d-flex justify-content-between align-items-center"
+      className="d-flex flex-wrap gap-4 justify-content-between align-items-center"
     >
       <div className="search d-flex gap-2 align-items-center">
         <img src={search} alt="" />
