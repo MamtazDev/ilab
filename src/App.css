@@ -164,6 +164,10 @@
     bottom: 1%;
 }
 
+.sideeeee{
+    width: 298px !important;
+}
+
 @media screen and (max-width: 1660px) {
     .img__box label>img {
         right: 26%;
@@ -191,9 +195,6 @@
 }
 
 @media screen and (max-width: 991px) {
-    .sidebar {
-        display: none;
-    }
 
     .img__box label>img {
         right: 40%;
@@ -202,9 +203,6 @@
 }
 
 @media screen and (max-width: 850px) {
-    .sidebar {
-        display: none;
-    }
 
     .img__box label>img {
         right: 38%;
@@ -212,9 +210,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .sidebar {
-        display: none;
-    }
 
     .img__box label>img {
         right: 30%;
@@ -223,9 +218,6 @@
 
 
 @media screen and (max-width: 425px) {
-    .sidebar {
-        display: none;
-    }
 
     .img__box label>img {
         right: 22%;
@@ -234,10 +226,6 @@
 
 
 @media screen and (max-width: 320px) {
-    .sidebar {
-        display: none;
-    }
-
     .img__box label>img {
         right: 13%;
     }
@@ -277,9 +265,7 @@
 }
 
 @media screen and (max-width: 491px) {
-    .sidebar {
-        display: none;
-    }
+
 
     .change_password p {
         display: none;
@@ -306,9 +292,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .sidebar {
-        display: none;
-    }
+
 
     .change_password img {
         left: 80%
@@ -317,9 +301,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .sidebar {
-        display: none;
-    }
+
 
     .change_password img {
         left: 105%
@@ -332,9 +314,7 @@
 }
 
 @media screen and (max-width: 991px) {
-    .sidebar {
-        display: none;
-    }
+
 
     .card_link {
         margin-bottom: 0px;

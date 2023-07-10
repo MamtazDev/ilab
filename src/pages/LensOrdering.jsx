@@ -104,10 +104,7 @@ const LensOrdering = () => {
             <div className="lens_order_box" style={{ marginBottom: "40px" }}>
               <h2>Lens type selection</h2>
               <form action="">
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Lens style (R)</label>
                     <select
@@ -134,10 +131,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Material (R)</label>
                     <select
@@ -164,10 +158,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Color (R)</label>
                     <select
@@ -195,13 +186,10 @@ const LensOrdering = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap three_input"
+                  className="d-flex flex-wrap  three_input"
                   style={{ gap: "47px" }}
                 >
-                  <div
-                    className="d-flex flex-wrap flex-lg-nowrap"
-                    style={{ gap: "12px" }}
-                  >
+                  <div className="d-flex flex-wrap " style={{ gap: "12px" }}>
                     <div className="mb-3">
                       <label>Sphere (R)</label>
                       <input
@@ -229,7 +217,7 @@ const LensOrdering = () => {
                   </div>
 
                   <div
-                    className="d-flex flex-wrap flex-lg-nowrap three_input"
+                    className="d-flex flex-wrap three_input"
                     style={{ gap: "12px" }}
                   >
                     <div className="mb-3">
@@ -259,10 +247,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Distance PD (R)</label>
                     <select
@@ -289,10 +274,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Near PD (R)</label>
                     <select
@@ -319,10 +301,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Vertical Decentration (R)</label>
                     <select
@@ -350,7 +329,7 @@ const LensOrdering = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap four_input"
+                  className="d-flex flex-wrap four_input"
                   style={{ gap: "7px" }}
                 >
                   <div className="mb-3">
@@ -388,7 +367,7 @@ const LensOrdering = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap four_input"
+                  className="d-flex flex-wrap four_input"
                   style={{ gap: "7px" }}
                 >
                   <div className="mb-3">
@@ -426,7 +405,7 @@ const LensOrdering = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap four_input"
+                  className="d-flex flex-wrap four_input"
                   style={{ gap: "7px" }}
                 >
                   <div className="mb-3">
@@ -464,7 +443,7 @@ const LensOrdering = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap four_input"
+                  className="d-flex flex-wrap four_input"
                   style={{ gap: "7px" }}
                 >
                   <div className="mb-3">
@@ -501,10 +480,7 @@ const LensOrdering = () => {
                   </div>
                 </div>
 
-                <div
-                  className="d-flex flex-wrap flex-lg-nowrap mb-2"
-                  style={{ gap: "12px" }}
-                >
+                <div className="d-flex flex-wrap  mb-2" style={{ gap: "12px" }}>
                   <div className="mb-3">
                     <label>Diameter (R)</label>
                     <select

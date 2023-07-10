@@ -20,7 +20,7 @@ import { NavLink, useLocation } from "react-router-dom";
 const Sidebar = () => {
   const { pathname } = useLocation();
   return (
-    <div className="sidebar">
+    <div className="sidebar w-100">
       <div className="logo">
         <img src={logo} alt="" />
       </div>

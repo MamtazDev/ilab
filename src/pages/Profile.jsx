@@ -11,11 +11,13 @@ import ProfileDetails from "../components/Profile/ProfileDetails";
 const Profile = () => {
   return (
     <div>
-   
       <div className="row g-0">
         <div className="col-12 col-lg-8 ">
           <div className="cart">
-            <div className="search d-flex gap-2 align-items-center">
+            <div
+              style={{ marginBottom: "26px" }}
+              className="search d-flex gap-2 align-items-center"
+            >
               <img src={search} alt="" />
               <input
                 className="border-0 w-100"
@@ -25,7 +27,7 @@ const Profile = () => {
             </div>
             <Title>Cart</Title>
 
-            <div style={{ marginBottom: "30px" }} className="row ">
+            <div style={{ marginBottom: "30px" }} className="row g-5">
               <div className="col-12 col-lg-5">
                 <IncomingOrder />
               </div>
@@ -36,7 +38,7 @@ const Profile = () => {
 
             <Title>Sent Orders</Title>
 
-            <div className="row ">
+            <div className="row g-5">
               <div className="col-12 col-lg-7">
                 <DelayedOrder />
               </div>

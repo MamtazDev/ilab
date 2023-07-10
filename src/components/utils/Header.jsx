@@ -5,7 +5,10 @@ import search from "../../assets/icon/search.png";
 
 const Header = () => {
   return (
-    <div className="d-flex justify-content-between align-items-center">
+    <div
+      style={{ marginBottom: "25px" }}
+      className="d-flex justify-content-between align-items-center"
+    >
       <div className="search d-flex gap-2 align-items-center">
         <img src={search} alt="" />
         <input
@@ -18,7 +21,6 @@ const Header = () => {
         style={{
           paddingBottom: "17px",
           borderBottom: "1px solid  rgba(0, 0, 0, 0.20)",
-          marginBottom: "35px",
         }}
         className="d-flex gap-4 align-items-center"
       >
