@@ -105,7 +105,7 @@ const Settings = () => {
             <div className="lens_order_box" style={{ padding: "22px 42pxs" }}>
               <h2 className="mb-3">My Profile Details</h2>
               <form style={{ marginBottom: "39px" }}>
-                <div className="d-flex flex-wrap flex-lg-nowrap gap-4">
+                <div className="d-flex flex-wrap gap-4">
                   <div className="mb-3">
                     <label>First Name</label>
                     <input
@@ -124,7 +124,7 @@ const Settings = () => {
                   </div>
                 </div>
 
-                <div className="d-flex flex-wrap flex-lg-nowrap gap-4">
+                <div className="d-flex flex-wrap gap-4">
                   <div className="mb-3">
                     <label>Country</label>
                     <input
@@ -143,7 +143,7 @@ const Settings = () => {
                   </div>
                 </div>
 
-                <div className="d-flex flex-wrap flex-lg-nowrap gap-4">
+                <div className="d-flex flex-wrap gap-4">
                   <div className="mb-3">
                     <label>Email</label>
                     <input
@@ -163,7 +163,7 @@ const Settings = () => {
                 </div>
 
                 <div
-                  className="d-flex flex-wrap flex-lg-nowrap align-items-center change_password"
+                  className="d-flex flex-wrap  align-items-center change_password"
                   style={{ marginBottom: "30px" }}
                 >
                   <div className="mb-0 ">

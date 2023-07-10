@@ -394,7 +394,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 180%;
-    color: #00D1FF;
+    color: #00D1FF !important;
 }
 
 .table td {
