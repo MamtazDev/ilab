@@ -18,10 +18,12 @@ import paypal from "../assets/images/payple.png";
 import masterCard from "../assets/images/masterCard.png";
 import gpay from "../assets/images/gpay.png";
 import Title from "../components/utils/Title";
+import Header from "../components/utils/Header";
 
 const Settings = () => {
   return (
     <div>
+      <Header />
       <Title>Profile</Title>
       <div className="lens_ordering w-100">
         <div className="row g-3">

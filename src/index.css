@@ -29,7 +29,7 @@ input:focus-visible {
 }
 
 .search {
-    max-width: 429px;
+    width: 429px;
     height: 52px;
     border-radius: 15px;
     background: #FFF;

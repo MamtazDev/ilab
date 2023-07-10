@@ -46,7 +46,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-lg-4 ">
+        <div className="col-12 col-lg-4 bg-white">
           <ProfileDetails />
         </div>
       </div>

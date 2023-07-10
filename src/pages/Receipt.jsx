@@ -3,10 +3,12 @@ import star from "../assets/images/star.png";
 import halfstar from "../assets/images/half_star.png";
 import Settings from "../assets/images/setting_icon.png";
 import Title from "../components/utils/Title";
+import Header from "../components/utils/Header";
 
 const Receipt = () => {
   return (
     <div>
+         <Header />
       <Title>Receipts</Title>
       <div className="my_order_box">
         <table className="table">

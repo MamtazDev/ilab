@@ -1,9 +1,11 @@
 import React from "react";
 import Title from "../components/utils/Title";
+import Header from "../components/utils/Header";
 
 const Status = () => {
   return (
     <div className="status w-100">
+         <Header />
       <Title>Order status</Title>
       <div className="order_number_box d-flex justify-content-between align-items-center">
         <div>

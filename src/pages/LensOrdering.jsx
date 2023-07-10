@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "../components/utils/Header";
 
 const LensOrdering = () => {
   return (
     <div className="lens_ordering w-100">
+      <Header />
       <div className="row g-0">
         <div className="col-12 col-lg-5 p-0 pe-lg-2">
           {/* <!-- Customer Data Start --> */}
