@@ -34,6 +34,10 @@
     width: 277px;
 }
 
+.lens_ordering .payment input {
+    width: 15px !important;
+}
+
 .form-control:focus {
     border-color: none !important;
 }

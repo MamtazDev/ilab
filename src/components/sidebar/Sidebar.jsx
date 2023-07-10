@@ -2,16 +2,23 @@ import React from "react";
 import "./Sidebar.css";
 import logo from "../../assets/logo.png";
 import profile from "../../assets/icon/profile.png";
+import profileDeactive from "../../assets/icon/profile-deactive.png";
 import lense from "../../assets/icon/lense.png";
+import lenseActive from "../../assets/icon/lense-active.png";
 import orders from "../../assets/icon//orders.png";
+import ordersActive from "../../assets/icon/order-active.png";
 import receipt from "../../assets/icon/receipt.png";
+import receiptActive from "../../assets/icon/receipt-active.png";
 import status from "../../assets/icon/status.png";
+import statusActive from "../../assets/icon/status-active.png";
 import settings from "../../assets/icon/settings.png";
+import settingsActive from "../../assets/icon/settings-active.png";
 import logout from "../../assets/icon/logout.png";
 import support from "../../assets/icon/support.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
+  const { pathname } = useLocation();
   return (
     <div className="sidebar">
       <div className="logo">
@@ -28,7 +35,11 @@ const Sidebar = () => {
               to="/"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={profile} alt="" />
+              {pathname === "/" ? (
+                <img src={profile} alt="" />
+              ) : (
+                <img src={profileDeactive} alt="" />
+              )}
               My Profile
             </NavLink>
           </li>
@@ -39,7 +50,11 @@ const Sidebar = () => {
               to="/lens-ordering"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={lense} alt="" />
+              {pathname === "/lens-ordering" ? (
+                <img src={lenseActive} alt="" />
+              ) : (
+                <img src={lense} alt="" />
+              )}
               Lens Ordering
             </NavLink>
           </li>
@@ -49,7 +64,11 @@ const Sidebar = () => {
               to="/my-order"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={orders} alt="" />
+              {pathname === "/my-order" ? (
+                <img src={ordersActive} alt="" />
+              ) : (
+                <img src={orders} alt="" />
+              )}
               My Orders
             </NavLink>
           </li>
@@ -59,7 +78,11 @@ const Sidebar = () => {
               to="/receipt"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={receipt} alt="" />
+              {pathname === "/receipt" ? (
+                <img src={receiptActive} alt="" />
+              ) : (
+                <img src={receipt} alt="" />
+              )}
               Receipts
             </NavLink>
           </li>
@@ -69,7 +92,11 @@ const Sidebar = () => {
               to="/status"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={status} alt="" />
+              {pathname === "/status" ? (
+                <img src={statusActive} alt="" />
+              ) : (
+                <img src={status} alt="" />
+              )}
               Status
             </NavLink>
           </li>
@@ -79,7 +106,11 @@ const Sidebar = () => {
               to="/settings"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
-              <img src={settings} alt="" />
+              {pathname === "/settings" ? (
+                <img src={settingsActive} alt="" />
+              ) : (
+                <img src={settings} alt="" />
+              )}
               Settings
             </NavLink>
           </li>

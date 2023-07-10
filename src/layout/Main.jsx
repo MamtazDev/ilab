@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const Main = () => {
   return (
     <div className="d-flex">
-      <div style={{width:"292px"}}>
+      <div className="d-none d-lg-block" style={{ width: "292px" }}>
         <Sidebar />
       </div>
       <div className="outlet w-100">
