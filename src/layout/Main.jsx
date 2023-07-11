@@ -11,7 +11,11 @@ const Main = () => {
   return (
     <div className="d-flex position-relative">
       {navbarToggle && (
-        <div className="d-lg-none mobileNavbar " style={{ width: "292px" }}>
+        <div
+          onClick={() => setNavbarToggle(false)}
+          className="d-lg-none mobileNavbar "
+          style={{ width: "292px" }}
+        >
           <Sidebar />
         </div>
       )}
