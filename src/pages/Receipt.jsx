@@ -8,10 +8,10 @@ import Header from "../components/utils/Header";
 const Receipt = () => {
   return (
     <div>
-         <Header />
+      <Header />
       <Title>Receipts</Title>
-      <div className="my_order_box">
-        <table className="table">
+      <div className="my_order_box table-responsive">
+        <table className="table ">
           <thead>
             <tr>
               <th>Date and time</th>

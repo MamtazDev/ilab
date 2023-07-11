@@ -11,8 +11,11 @@ import ProfileDetails from "../components/Profile/ProfileDetails";
 const Profile = () => {
   return (
     <div>
-      <div className="row g-0">
-        <div className="col-12 col-xl-8 ">
+      <div className="row">
+        <div
+          style={{ backgroundColor: "#F5F5F5" }}
+          className="col-12 col-xl-8 p-4"
+        >
           <div className="cart">
             <div
               style={{ marginBottom: "26px" }}
@@ -42,7 +45,7 @@ const Profile = () => {
               <div className="col-12 col-xl-7">
                 <DelayedOrder />
               </div>
-              <div className="col-12 col-xl-5">
+              <div className="col-12 col-xl-5 mb-5 mb-lg-0">
                 <DeliveredOrder />
               </div>
             </div>

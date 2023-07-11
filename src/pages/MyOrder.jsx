@@ -10,8 +10,8 @@ const MyOrder = () => {
     <div>
       <Header />
       <Title>My orders</Title>
-      <div className="my_order_box">
-        <table className="table">
+      <div className="my_order_box table-responsive">
+        <table className="table ">
           <thead>
             <tr>
               <th>#Order</th>
@@ -35,7 +35,6 @@ const MyOrder = () => {
                 <img className="img-fluid" src={star} alt="Star" />
                 <img className="img-fluid" src={star} alt="Star" />
                 <img className="img-fluid" src={star} alt="Star" />
-
                 <img className="img-fluid" src={halfstar} alt="Star" />
               </td>
               <td>

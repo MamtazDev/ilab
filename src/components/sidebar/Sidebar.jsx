@@ -130,7 +130,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/ghgh"
+              to=""
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={support} alt="" />

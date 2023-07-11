@@ -136,7 +136,9 @@
     font-weight: 500;
     line-height: 180%;
 }
-
+.order_number_box{
+    align-items: center;
+}
 /* Payment Page End */
 
 /* Settings Page Start */

@@ -23,11 +23,6 @@ input:focus-visible {
     outline: none;
 }
 
-
-
-
-
-
 .outlet {
     height: 100vh;
     overflow-y: scroll;
@@ -44,7 +39,7 @@ input:focus-visible {
     height: 52px;
     border-radius: 15px;
     background: #FFF;
-    padding: 0 14px;
+    padding: 14px;
 }
 
 .search input::placeholder {
@@ -148,4 +143,11 @@ input:focus-visible {
     font-size: 12px;
     font-weight: 400;
     line-height: 180%;
+}
+
+@media screen and (max-width: 767px) {
+    .search {
+        max-width: 429px;
+        width: 100%;
+    }
 }
