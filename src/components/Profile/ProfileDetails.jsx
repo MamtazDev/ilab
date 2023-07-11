@@ -9,6 +9,7 @@ import service from "../../assets/icon/service.png";
 import profileSm from "../../assets/images/profile-sm.png";
 import profile from "../../assets/images/profile.png";
 import { Link } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 
 const ProfileDetails = () => {
   return (
@@ -21,7 +22,20 @@ const ProfileDetails = () => {
         }}
         className="d-flex gap-4 align-items-center"
       >
-        <img src={notificationOn} alt="" />
+         <Dropdown>
+          <Dropdown.Toggle
+            className="bg-transparent border-0"
+            id="dropdown-basic"
+          >
+            <img src={notificationOn} alt="" />
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <div className="d-flex align-items-center gap-3">
           <img src={profileSm} alt="" />
           <div>

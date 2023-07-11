@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import profile from "../assets/images/setting-profile.png";
 import camera from "../assets/images/img_upload.png";
 import facebook from "../assets/icon/facebook.png";
@@ -19,8 +19,14 @@ import masterCard from "../assets/images/masterCard.png";
 import gpay from "../assets/images/gpay.png";
 import Title from "../components/utils/Title";
 import Header from "../components/utils/Header";
+import { Button, Modal } from "react-bootstrap";
 
 const Settings = () => {
+  const [showPassword, setShowPassword] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
   return (
     <div>
       <Header />
@@ -170,15 +176,51 @@ const Settings = () => {
                     <label>Password</label>
                     <div className="d-flex align-items-center">
                       <input
-                        type="password"
+                        type={showPassword ? "text" : "password"}
                         className="form-control"
                         placeholder="***********"
                       />
-                      <img className="img-fluid" src={eye} alt="" />
+                      <img
+                        onClick={() => setShowPassword(!showPassword)}
+                        className="img-fluid"
+                        src={eye}
+                        alt=""
+                      />
                     </div>
                   </div>
                   <p></p>
-                  <span>Change Password</span>
+
+                  <Button className="bg-transparent" onClick={handleShow}>
+                    <span>Change Password</span>
+                  </Button>
+
+                  <Modal show={showModal} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Change Password</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <div className="mb-3">
+                        <label>Current Password</label>
+                        <input type="text" className="form-control" />
+                      </div>
+                      <div className="mb-3">
+                        <label>New Password</label>
+                        <input type="text" className="form-control" />
+                      </div>
+                      <div className="mb-3">
+                        <label>Confirm Password</label>
+                        <input type="text" className="form-control" />
+                      </div>
+                    </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onClick={handleClose}>
+                        Close
+                      </Button>
+                      <Button variant="primary" onClick={handleClose}>
+                        Save Changes
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
                 </div>
                 <button type="submit">Update Information</button>
               </form>
