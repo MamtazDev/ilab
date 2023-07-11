@@ -4,6 +4,7 @@ import halfstar from "../assets/images/half_star.png";
 import Settings from "../assets/images/setting_icon.png";
 import Title from "../components/utils/Title";
 import Header from "../components/utils/Header";
+import { Dropdown } from "react-bootstrap";
 
 const MyOrder = () => {
   return (
@@ -38,9 +39,24 @@ const MyOrder = () => {
                 <img className="img-fluid" src={halfstar} alt="Star" />
               </td>
               <td>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img src={Settings} alt="Setting Icon" />{" "}
-                </a>
+                <Dropdown>
+                  <Dropdown.Toggle
+                    className="bg-transparent border-0"
+                    id="dropdown-basic"
+                  >
+                    <img src={Settings} alt="Setting Icon" />
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      Another action
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      Something else
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </td>
             </tr>
 
@@ -59,9 +75,24 @@ const MyOrder = () => {
                 <img className="img-fluid" src={halfstar} alt="Star" />
               </td>
               <td>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img src={Settings} alt="Setting Icon" />{" "}
-                </a>
+                <Dropdown>
+                  <Dropdown.Toggle
+                    className="bg-transparent border-0"
+                    id="dropdown-basic"
+                  >
+                    <img src={Settings} alt="Setting Icon" />
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      Another action
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      Something else
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </td>
             </tr>
 
@@ -80,9 +111,24 @@ const MyOrder = () => {
                 <img className="img-fluid" src={halfstar} alt="Star" />
               </td>
               <td>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img src={Settings} alt="Setting Icon" />
-                </a>
+                <Dropdown>
+                  <Dropdown.Toggle
+                    className="bg-transparent border-0"
+                    id="dropdown-basic"
+                  >
+                    <img src={Settings} alt="Setting Icon" />
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      Another action
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      Something else
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </td>
             </tr>
             <tr>
@@ -99,9 +145,24 @@ const MyOrder = () => {
                 <img className="img-fluid" src={halfstar} alt="Star" />
               </td>
               <td>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img src={Settings} alt="Setting Icon" />
-                </a>
+                <Dropdown>
+                  <Dropdown.Toggle
+                    className="bg-transparent border-0"
+                    id="dropdown-basic"
+                  >
+                    <img src={Settings} alt="Setting Icon" />
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      Another action
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      Something else
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </td>
             </tr>
           </tbody>

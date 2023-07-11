@@ -136,9 +136,11 @@
     font-weight: 500;
     line-height: 180%;
 }
-.order_number_box{
+
+.order_number_box {
     align-items: center;
 }
+
 /* Payment Page End */
 
 /* Settings Page Start */
@@ -166,8 +168,8 @@
     bottom: 1%;
 }
 
-.sideeeee{
-    width: 298px !important;
+.dropdown-toggle::after {
+    display: none !important;
 }
 
 @media screen and (max-width: 1660px) {

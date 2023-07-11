@@ -3,6 +3,7 @@ import profileSm from "../../assets/images/profile-sm.png";
 import notificationOn from "../../assets/icon/notification-on.png";
 import search from "../../assets/icon/search.png";
 import { useNavigate } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -29,7 +30,21 @@ const Header = () => {
         }}
         className="d-flex gap-4 align-items-center"
       >
-        <img src={notificationOn} alt="" />
+        <Dropdown>
+          <Dropdown.Toggle
+            className="bg-transparent border-0"
+            id="dropdown-basic"
+          >
+            <img src={notificationOn} alt="" />
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+
         <div
           style={{ cursor: "pointer" }}
           onClick={goProfile}
