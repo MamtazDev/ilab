@@ -10,7 +10,7 @@ import ProfileDetails from "../components/Profile/ProfileDetails";
 
 const Profile = () => {
   return (
-    <div>
+    <div style={{ height: "100vh", overflowY: "scroll" }}>
       <div className="row">
         <div
           style={{ backgroundColor: "#F5F5F5" }}

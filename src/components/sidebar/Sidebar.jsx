@@ -19,7 +19,7 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const { pathname } = useLocation();
-  
+
   return (
     <div className="sidebar w-100">
       <div className="logo">
@@ -120,7 +120,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to="/hjh"
+              to="*"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={logout} alt="" />
@@ -130,7 +130,7 @@ const Sidebar = () => {
           <li>
             {" "}
             <NavLink
-              to=""
+              to="*"
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               <img src={support} alt="" />

@@ -7,7 +7,7 @@
     padding: 28px 40px;
 }
 
-.profileDetails .welcome {
+.welcome {
     color: var(--black-01, #191D31);
     font-family: 'General Sans', sans-serif;
     font-size: 16px;
@@ -16,7 +16,7 @@
     margin-bottom: 5px;
 }
 
-.profileDetails .name_blur {
+.name_blur {
     color: var(--grey-01, #A6A9B9);
     font-size: 14px;
     font-family: 'General Sans', sans-serif;

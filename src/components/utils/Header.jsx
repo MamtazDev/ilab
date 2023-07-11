@@ -2,8 +2,13 @@ import React from "react";
 import profileSm from "../../assets/images/profile-sm.png";
 import notificationOn from "../../assets/icon/notification-on.png";
 import search from "../../assets/icon/search.png";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const goProfile = () => {
+    navigate("/");
+  };
   return (
     <div
       style={{ marginBottom: "25px" }}
@@ -25,7 +30,11 @@ const Header = () => {
         className="d-flex gap-4 align-items-center"
       >
         <img src={notificationOn} alt="" />
-        <div className="d-flex align-items-center gap-3">
+        <div
+          style={{ cursor: "pointer" }}
+          onClick={goProfile}
+          className="d-flex align-items-center gap-3"
+        >
           <img src={profileSm} alt="" />
           <div>
             <h6 className="welcome">Welcome</h6>

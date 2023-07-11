@@ -7,6 +7,7 @@ import Status from "../pages/Status";
 import Settings from "../pages/Settings";
 import MyOrder from "../pages/MyOrder";
 import Receipt from "../pages/Receipt";
+import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -38,5 +39,9 @@ export const router = createBrowserRouter([
         element: <Receipt></Receipt>,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
