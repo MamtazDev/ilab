@@ -15,7 +15,12 @@ const LensOrdering = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setStep(1);
+    if (lensOrdering.length > 0) {
+      setStep(1);
+    } else {
+      alert("fill up the input fields");
+    }
+
     console.log(lensOrdering);
   };
 

@@ -49,6 +49,7 @@ const Sidebar = () => {
             {" "}
             <NavLink
               to="/lens-ordering"
+              style={{ whiteSpace: "nowrap" }}
               className={({ isActive }) => (isActive ? "activeRoute" : "")}
             >
               {pathname === "/lens-ordering" ? (
